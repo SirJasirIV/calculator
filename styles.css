@@ -25,7 +25,7 @@ body{
 }
 .rsltarea{
     height: 73px;
-    width: 323px;
+    width: 303px;
     background-color: #033543;
     border: solid 1px;
     border-radius: 5px;
@@ -33,11 +33,17 @@ body{
     border-bottom:transparent;
     border-left: transparent;
     border-right: transparent;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-top: 37px;
+    padding-left: 20px;
+    color: aqua;
 }
 .row1{
     display: flex;
     justify-content: space-around;
-    padding-top: 23px;
+    padding-top: 5px;
 }
 .row2{
     display: flex;
@@ -66,6 +72,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .n2{
   height: 64px;
@@ -74,6 +83,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .n3{
   height: 64px;
@@ -82,6 +94,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .n4{
   height: 64px;
@@ -90,6 +105,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .n5{
   height: 64px;
@@ -98,6 +116,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .n6{
   height: 64px;
@@ -106,6 +127,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .n7{
   height: 64px;
@@ -114,6 +138,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .n8{
   height: 64px;
@@ -122,6 +149,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .n9{
   height: 64px;
@@ -130,6 +160,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .plus{
   height: 64px;
@@ -138,6 +171,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .zero{
   height: 64px;
@@ -146,6 +182,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .mult{
   height: 64px;
@@ -154,6 +193,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .sub{
   height: 64px;
@@ -162,6 +204,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .divi{
   height: 64px;
@@ -170,6 +215,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .eq{
   height: 64px;
@@ -178,6 +226,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .calcsright{
     display: flex;
@@ -190,6 +241,9 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 .scndnum{
   height: 64px;
@@ -198,5 +252,8 @@ body{
   border-radius: 50%;
   background-color: #256545;
   border-color: #256545;
+  color: #FFFAF0;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 
