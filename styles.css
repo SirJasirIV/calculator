@@ -23,6 +23,8 @@ body{
     border-radius: 5px;
     border-color: #6FCF97;
     border-bottom:transparent;
+    border-left: transparent;
+    border-right: transparent;
 }
 .row1{
     display: flex;
