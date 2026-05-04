@@ -1,8 +1,16 @@
 body{
  background: linear-gradient(#8872d8, #15088d);
- height: 700px;
+ min-height: 100vh;
  margin: 0px;
  padding: 0px;
+}
+.header{
+    display: flex;
+    justify-self: center;
+    padding-top: 100px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 45px;
 }
 .calcbody{
     height: 488px;
@@ -13,7 +21,7 @@ body{
     border-color: #6FCF97;
     display: flexbox;
     justify-self: center;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 .rsltarea{
     height: 73px;
@@ -51,7 +59,7 @@ body{
    justify-content: space-around;
    margin-top: 11px;
 }
-button{
+.n1{
   height: 64px;
   width: 64px;
   border: solid;
@@ -59,3 +67,136 @@ button{
   background-color: #256545;
   border-color: #256545;
 }
+.n2{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.n3{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.n4{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.n5{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.n6{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.n7{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.n8{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.n9{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.plus{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.zero{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.mult{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.sub{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.divi{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.eq{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.calcsright{
+    display: flex;
+    flex-direction: column;
+}
+.clear{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+.scndnum{
+  height: 64px;
+  width: 64px;
+  border: solid;
+  border-radius: 50%;
+  background-color: #256545;
+  border-color: #256545;
+}
+

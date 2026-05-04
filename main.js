@@ -14,46 +14,70 @@ const multi = document.querySelector(".mult")
 const subtract = document.querySelector(".sub")
 const divis = document.querySelector(".divi")
 const equal = document.querySelector(".eq")
-let resultant = "";
-num1.addEventListener("click", () => {
- resultant += "1";
- result.textContent = resultant;
-})
-num2.addEventListener("click", () => {
- resultant += "2";
- result.textContent = resultant;
-})
-num3.addEventListener("click", () => {
- resultant += "3";
- result.textContent = resultant;
-})
-num4.addEventListener("click", () => {
- resultant += "4";
- result.textContent = resultant;
-})
-num5.addEventListener("click", () => {
- resultant += "5";
- result.textContent = resultant;
-})
-num6.addEventListener("click", () => {
- resultant += "6";
- result.textContent = resultant;
-})
-num7.addEventListener("click", () => {
- resultant += "7";
- result.textContent = resultant;
-})
-num8.addEventListener("click", () => {
- resultant += "8";
- result.textContent = resultant;
-})
-num9.addEventListener("click", () => {
- resultant += "9";
- result.textContent = resultant;
-})
-numZero.addEventListener("click", () => {
- resultant += "0";
- result.textContent = resultant;
-})
+const clear = document.querySelector(".clear")
+const scndnum = document.querySelector(".scndnum")
+const header = document.querySelector(".header")
+
+let firstNum = "";
+let secondNum = "";
+let secondstat = false;
 
 
+function handleNumberInput(num) {
+    if (!secondstat) {
+        firstNum += num;
+        result.textContent = firstNum;
+    } else {
+        secondNum += num;
+        result.textContent = secondNum;
+    }
+    updateheader()
+}
+
+num1.addEventListener("click", () => handleNumberInput("1"));
+num2.addEventListener("click", () => handleNumberInput("2"));
+num3.addEventListener("click", () => handleNumberInput("3"));
+num4.addEventListener("click", () => handleNumberInput("4"));
+num5.addEventListener("click", () => handleNumberInput("5"));
+num6.addEventListener("click", () => handleNumberInput("6"));
+num7.addEventListener("click", () => handleNumberInput("7"));
+num8.addEventListener("click", () => handleNumberInput("8"));
+num9.addEventListener("click", () => handleNumberInput("9"));
+numZero.addEventListener("click", () => handleNumberInput("0"));
+
+// Toggle between first and second number input
+scndnum.addEventListener("click", () => {
+    secondstat = !secondstat;
+    scndnum.textContent = secondstat ? "1st number" : "2nd number";
+    result.textContent = secondstat ? secondNum || "0" : firstNum || "0";
+});
+function updateheader(){
+if (firstNum !== ""){
+    header.textContent = "Enter second number!"
+    if(secondNum !== ""){
+        header.textContent = "Choose an operation symbol!"
+    }
+}}
+plus.addEventListener("click",() =>{
+  let add = parseInt(firstNum) + parseInt(secondNum)
+  result.textContent = add
+})
+subtract.addEventListener("click",() =>{
+  let minus = parseInt(firstNum) - parseInt(secondNum)
+  result.textContent = minus 
+})
+multi.addEventListener("click",() =>{
+  let by = parseInt(firstNum) * parseInt(secondNum)
+  result.textContent = by
+})
+divis.addEventListener("click",() =>{
+  let division = parseInt(firstNum) / parseInt(secondNum)
+  result.textContent = division
+})
+clear.addEventListener("click",() => {
+    firstNum = "";
+    secondNum = "";
+    result.textContent = "0";
+    header.textContent = "Enter first number!";
+})
+updateheader()
